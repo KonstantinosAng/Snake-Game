@@ -105,7 +105,7 @@ function Update() {
     }
 
     // Check if user won
-    if (score === 5) {
+    if (score === 200) {
       lose = true;
       win = true;
       winPopup.style.display = 'block';
