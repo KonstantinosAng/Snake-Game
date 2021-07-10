@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Let's Play Snake </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" href="images/snake.jpg">
+  </head>
+  <body>
+    <div>
+      <img id="logo" src="images/snake.jpg" onclick="hiss()"></img>
+    </div>
+    <div class="main">
+      <div id="snake_sound">
+        <h4> HIISSSSSSSS </h4>
+        <h4> HIISSSSSSSS </h4>
+        <h4> HIISSSSSSSS </h4>
+      </div>
+      <h1 id="pause"> GAME IS PAUSED </h1>
+      <h1 class="top"> SNAKE </h1>
+        <canvas width="768" height="448"> </canvas>
+        <h6 id="popup">
+              Oops! Sorry you lost, better luck next time.
+        </h6>
+        <h1 id="win"> CONGRATULATIONS YOU WON!!!! </h1>
+        <h1 id="playagain" onclick="window.location.reload();"> PLAY AGAIN? </h1>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/hiss.js"></script>
+  </body>
+</html>
