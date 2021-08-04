@@ -3,7 +3,7 @@
 A simple snake game to pass around time, for old time's sake.
 
 <div align="center">
-  <h1><a href="http://kangelopoulos.ddns.net/snake"> DEMO </a></h1>
+  <h1><a href="https://constantine.dev:8080/snake"> DEMO </a></h1>
 </div>
 
 ## Installation
