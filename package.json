@@ -1,22 +1,10 @@
 {
-  "name": "snake",
-  "displayName": "snake",
+  "name": "snake-game",
+  "displayName": "snake-game",
   "version": "0.1.0",
   "publisher": "Konstantinos Angelopoulos",
   "private": true,
   "license": "MIT",
   "homepage": "/",
-  "main": "./index.html",
-  "icon": "public/favicon.ico",
-  "author": {
-    "email": "kwstantinos.agelopoulos@outlook.com",
-    "name": "Konstantinos Angelopoulos",
-    "url": "https://constantine.dev"
-  },
-  "maintainers": [
-    {
-      "email": "kwstantinos.agelopoulos@outlook.com",
-      "name": "Konstantinos Angelopoulos"
-    }
-  ]
+  "main": "./index.html"
 }
